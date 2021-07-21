@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
 	val = request.args.get("var")
  
-	return "Hello, World! {}".format(val)
+	return "Hello, World123! {}".format(val)
  
 if __name__=="__main__":
 	app.run()
